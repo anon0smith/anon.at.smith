@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anon@smisth - 匿名＠すみす | tokumei@smith | pagan / celtic bagpipe death metal project official website.">
+  <meta name="keywords" content="Anon@smisth, tokumei@sumisu, tokumei@smith, 匿名＠すみす, band, music project, bagpipe death metal, pagan, celtic">
+  <meta name="author" content="Anon@smisth">
+  <title>Anon@smisth | Official Website</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===============================
+       ヘッダー
+  ================================ -->
+  <header class="header">
+    <div class="logo">
+      <img src="images/logoA.webp" alt="Anon@smisth ロゴA" class="fade-img">
+      <img src="images/logoB.webp" alt="Anon@smisth ロゴB" class="fade-img">
+      <img src="images/logoC.webp" alt="Anon@smisth ロゴC" class="fade-img">
+    </div>
+
+    <h1 class="band-name"><span>Anon@smisth</span></h1>
+
+    <!-- メニューボタン -->
+    <div class="menu-toggle" id="menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <span class="menu-text">Menu</span>
+    </div>
+  </header>
+
+  <!-- メニュー -->
+  <nav class="menu" id="menu">
+    <ul>
+      <li><a href="#top">TOP</a></li>
+      <li><a href="#session">Session</a></li>
+      <li><a href="#prologue">Prologue</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===============================
+       TOP
+  ================================ -->
+  <section id="top" class="section top">
+    <h2><span class="new">NEW</span> 最新情報</h2>
+    <img src="images/flyer.webp" alt="Anon@smisth 最新フライヤー" class="flyer">
+  </section>
+
+  <!-- ===============================
+       Session
+  ================================ -->
+  <section id="session" class="section session">
+    <h2>Session / Live Info</h2>
+    <div class="calendar-container">
+      <iframe src="https://calendar.google.com/calendar/embed?src=example%40gmail.com" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </section>
+
+  <!-- ===============================
+       Prologue
+  ================================ -->
+  <section id="prologue" class="section prologue">
+    <h2>Prologue</h2>
+    <p>
+      匿名＠すみす（Anon@smisth）は、ケルトとパガンの旋律にデスメタルの魂を融合した音楽プロジェクト。
+      バグパイプの轟音と神話的世界観を通じて「匿名の叫び」を音で表現する。
+      <br><br>
+      （ここに詳細説明文を追加）
+    </p>
+  </section>
+
+  <!-- ===============================
+       Portfolio
+  ================================ -->
+  <section id="portfolio" class="section portfolio">
+    <h2>Portfolio</h2>
+    <div class="works">
+      <div class="work">
+        <img src="images/work1.webp" alt="作品1 - Anon@smisth" class="thumb">
+        <a href="https://www.youtube.com/watch?v=xxxx" target="_blank" class="yt-link">▶</a>
+      </div>
+      <div class="work">
+        <img src="images/work2.webp" alt="作品2 - Anon@smisth" class="thumb">
+        <a href="https://www.youtube.com/watch?v=xxxx" target="_blank" class="yt-link">▶</a>
+      </div>
+      <div class="work">
+        <img src="images/work3.webp" alt="作品3 - Anon@smisth" class="thumb">
+        <a href="https://www.youtube.com/watch?v=xxxx" target="_blank" class="yt-link">▶</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===============================
+       フッター
+  ================================ -->
+  <footer class="footer">
+    <a href="https://x.com/anon_smisth" target="_blank" aria-label="X (Twitter)">
+      <img src="images/x_icon.webp" alt="X (Twitter) アイコン" class="sns-icon">
+    </a>
+    <p>© 2025 Anon@smisth</p>
+  </footer>
+
+  <!-- JS（メニュー開閉のみ） -->
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('menu');
+    toggle.addEventListener('click', () => menu.classList.toggle('open'));
+  </script>
+
+</body>
+</html>
